@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>Ninhue Patrimonio Inteligente</title>
+
+    <link rel="stylesheet" href="../css/casuna.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css">
+</head>
+
+<body>
+
+    <main class="contenedor">
+
+        <header>
+           <h1> Ninhue Patrimonio Inteligente</h1>
+           <p class="subtitulo">
+                 Descubre el patrimonio histórico de la comuna de Ninhue.
+           </p>
+        </header>
+
+        <section class="tarjeta">
+
+           <h2>Casona Dr. David Benavente</h2>
+
+            <div class="carrusel">
+
+               <button class="btn-carrusel" id="anterior" aria-label="imagen anterior">
+                  &#10094;
+               </button>
+
+                <img 
+                  id="imagen"
+                  src="../img/cs.jpg"
+                  alt="Casona Dr. David Benavente" >
+
+                <button class="btn-carrusel" id="siguiente" aria-label="imagen siguiente">
+                   &#10095;
+                </button>
+
+           </div>
+
+          <div class="descripcion">
+            <p>
+          La Casona Dr. David Benavente es un inmueble patrimonial ubicado en 
+          la comuna de Ninhue, Región de Ñuble. Destaca por su arquitectura
+           tradicional de estilo colonial chileno, caracterizada por sus amplios
+            corredores, muros de adobe, estructura de madera y techumbre 
+            de tejas de arcilla, elementos típicos de las construcciones
+             rurales de la zona central de Chile.
+            </p>
+       </div>
+
+    </section>
+
+    <section class="mapa"> 
+         <h2>Ubicación</h2>
+         <div id="mapa-ninhue"></div>
+    </section>
+
+    </main>
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="../js/casona.js"  ></script>
+
+</body>
+</html>
