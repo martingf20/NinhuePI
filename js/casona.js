@@ -1,7 +1,7 @@
 const imagenes = [
     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6IV_62_q5QBydzwRnk1z1e1lg6KOLh-M8QhBc9d01FMfdS2gqBsztufA&s=10",
     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-jqF5JPZVf3ij0FJe4aKsGiOuehoPpJjVhYi89DzyCCtVNsRQ_pFfkzo&s=10",
-    ".https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDOn71tVmGlffdz_8WQDzf5he_7zeTCyx7km_07Qczgq0M1toesIqXu-cE&s=10"
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDOn71tVmGlffdz_8WQDzf5he_7zeTCyx7km_07Qczgq0M1toesIqXu-cE&s=10"
 ];
 let indice = 0;
 let autoplay; // para poder pausar/reiniciar el intervalo
